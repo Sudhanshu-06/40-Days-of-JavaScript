@@ -59,3 +59,16 @@ let person = {
   console.log("Original Array:", numbers); // Modified
   console.log("New Array:", newNumbers);   // Modified
   
+
+
+
+  let nonZeroArr = arr1.filter(num => num !== 0);
+
+console.log(nonZeroArr);
+
+
+let arr2 = ["Apple", "Banana", "Mango", "Avadco"];
+
+let result = arr2.filter(item => item.startsWith("A"));
+
+console.log(result);
